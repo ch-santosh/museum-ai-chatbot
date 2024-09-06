@@ -230,7 +230,6 @@ if user_input:
     with st.chat_message("assistant"):
         st.markdown(assistant_response)
 
-st.write("Note: This is a prototype. Always verify recipes, nutritional information, and video content.")
 
 hide_streamlit_style = """
             <style>
