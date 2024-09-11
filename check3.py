@@ -146,7 +146,7 @@ if user_input:
                     "type": "function",
                     "function": {
                         "name": "do_booking",
-                        "description": "Make a booking with the provided email, phone, and number of tickets",
+                        "description": "Make a booking with the provided email, phone, and number of tickets and if the return is true, there is successful booking, else not done",
                         "parameters": {
                             "type": "object",
                             "properties": {
