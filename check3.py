@@ -5,7 +5,7 @@ from groq import Groq
 
 # Initialize Groq client
 client = Groq(api_key=st.secrets['KEY'])
-MODEL = 'llama3-groq-70b-8192-tool-use-preview' 
+MODEL = 'llama-guard-3-8b' 
 
 # Define the booking function
 def do_booking(booking_email, phone, ticks):
